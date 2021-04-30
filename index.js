@@ -14,7 +14,7 @@ if (message.content === '!auto-bump') {
         var interval = setInterval (function () {
         message.channel.send('!d bump')
         .catch(console.error);
-        }, 5000); // This number is how often it will send (milliseconds)
+        }, 7200000); // This number is how often it will send (milliseconds)
     };
 });
 
