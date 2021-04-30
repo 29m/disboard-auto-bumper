@@ -1,0 +1,15 @@
+{
+  "name": "disboard-auto-bumper",
+  "version": "1.0.0",
+  "description": "Automatically bump a server every 2 hours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cracked.to/wip || discord.gg/BmCuuu6BYd",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "node-fetch": "^2.6.1"
+  }
+}
